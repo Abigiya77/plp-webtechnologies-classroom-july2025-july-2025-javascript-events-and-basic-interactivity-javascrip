@@ -1,0 +1,84 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0077ff;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* Counter */
+.counter-section {
+  margin: 30px 0;
+}
+
+/* FAQ */
+.faq-section {
+  margin: 30px 0;
+}
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: #eee;
+  color: #333;
+}
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+  padding: 5px;
+  color: #555;
+}
+
+/* Form */
+.form-section {
+  margin: 30px 0;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#form-messages {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: #f0f0f0;
+}
+.dark-mode button {
+  background: #ff9800;
+}
+.dark-mode button:hover {
+  background: #e68900;
+}
